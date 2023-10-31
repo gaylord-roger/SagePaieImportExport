@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="FichePersonnelle.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="FichePersonnelle.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentFiles.FixedLength.Attributes" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
