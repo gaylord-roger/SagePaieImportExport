@@ -87,8 +87,8 @@ namespace SagePaieImportExport
         [EnumField(26)]
         public ChoixBanqueSalariePaiementFixe BanqueSalariePaiementFixe { get; set; }
 
-        [IntField(27, 1)]
-        public int Banque1TypeCoordonneeBanque { get; set; }
+        [EnumField(27, 1)]
+        public TypeCoordonneeBanque Banque1TypeCoordonneeBanque { get; set; }
 
         [StringField(28, 3)]
         public string Banque1CodePays { get; set; }
@@ -99,8 +99,8 @@ namespace SagePaieImportExport
         [StringField(30, 42)]
         public string Banque1IBAN { get; set; }
 
-        [IntField(31, 1)]
-        public int Banque2TypeCoordonneeBanque { get; set; }
+        [EnumField(31, 1)]
+        public TypeCoordonneeBanque Banque2TypeCoordonneeBanque { get; set; }
 
         [StringField(32, 3)]
         public string Banque2CodePays { get; set; }
