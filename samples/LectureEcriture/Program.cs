@@ -35,7 +35,7 @@ internal class Program
     }
 }
 
-static class Ext
+static class DumpExt
 {
     static readonly System.Text.Json.JsonSerializerOptions opts = new System.Text.Json.JsonSerializerOptions { WriteIndented = true };
     public static string Dump(this object o) => System.Text.Json.JsonSerializer.Serialize(o, opts);
